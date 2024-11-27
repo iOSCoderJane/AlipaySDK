@@ -1,0 +1,46 @@
+{
+  "name": "XQAlipaySDK",
+  "version": "0.1.0",
+  "summary": "A short description of XQAlipaySDK.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/zhaoshenghui/XQAlipaySDK",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zhaoshenghui": "zhaoshenghui11@google.com"
+  },
+  "source": {
+    "git": "https://github.com/zhaoshenghui/XQAlipaySDK.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": [
+    "XQAlipaySDK/Classes/**/*",
+    "AlipaySDK/AlipaySDK.framework/Headers/*.h"
+  ],
+  "vendored_frameworks": "AlipaySDK/AlipaySDK.framework",
+  "resources": "AlipaySDK/AlipaySDK.bundle",
+  "xcconfig": {
+    "HEADER_SEARCH_PATHS": "${PODS_ROOT}/XQAlipaySDK/AlipaySDK/AlipaySDK.framework/Headers/**"
+  },
+  "frameworks": [
+    "Foundation",
+    "UIKit",
+    "SystemConfiguration",
+    "CoreTelephony",
+    "QuartzCore",
+    "CoreText",
+    "CoreGraphics",
+    "CFNetwork",
+    "CoreMotion",
+    "WebKit"
+  ],
+  "libraries": [
+    "z",
+    "c++"
+  ]
+}

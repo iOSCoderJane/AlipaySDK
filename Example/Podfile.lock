@@ -1,0 +1,16 @@
+PODS:
+  - XQAlipaySDK (0.1.0)
+
+DEPENDENCIES:
+  - XQAlipaySDK (from `../`)
+
+EXTERNAL SOURCES:
+  XQAlipaySDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XQAlipaySDK: cd935b48ea454e6a93d1276ddbf0d2976fec9de4
+
+PODFILE CHECKSUM: a840360220e4e5dcff7ebdce9482aecc73528501
+
+COCOAPODS: 1.15.2

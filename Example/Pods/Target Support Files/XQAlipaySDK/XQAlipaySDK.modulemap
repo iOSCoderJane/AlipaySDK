@@ -1,0 +1,6 @@
+framework module XQAlipaySDK {
+  umbrella header "XQAlipaySDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

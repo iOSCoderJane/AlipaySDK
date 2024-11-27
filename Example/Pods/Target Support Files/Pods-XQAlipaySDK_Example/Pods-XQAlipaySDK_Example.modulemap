@@ -1,0 +1,6 @@
+framework module Pods_XQAlipaySDK_Example {
+  umbrella header "Pods-XQAlipaySDK_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

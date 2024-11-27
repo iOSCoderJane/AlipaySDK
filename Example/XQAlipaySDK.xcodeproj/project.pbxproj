@@ -40,13 +40,13 @@
 		607FACE51AFB9204008FA782 /* XQAlipaySDK_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XQAlipaySDK_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		6713B73C3484959211465C99 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		6713B73C3484959211465C99 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		69AAFADC5B732C056CDFB358 /* Pods_XQAlipaySDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XQAlipaySDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D4A996E241BE09A7860D459 /* Pods_XQAlipaySDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XQAlipaySDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8190F7E1E320D986B7730A50 /* Pods-XQAlipaySDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XQAlipaySDK_Example.debug.xcconfig"; path = "Target Support Files/Pods-XQAlipaySDK_Example/Pods-XQAlipaySDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		84E1F68D0DBEB176AF3D1DBA /* Pods-XQAlipaySDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XQAlipaySDK_Example.release.xcconfig"; path = "Target Support Files/Pods-XQAlipaySDK_Example/Pods-XQAlipaySDK_Example.release.xcconfig"; sourceTree = "<group>"; };
-		ABC2A6D36DBCD09C677D2A50 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		D5C5A2EF1A91563A7D61C58E /* XQAlipaySDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = XQAlipaySDK.podspec; path = ../XQAlipaySDK.podspec; sourceTree = "<group>"; };
+		ABC2A6D36DBCD09C677D2A50 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D5C5A2EF1A91563A7D61C58E /* XQAlipaySDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XQAlipaySDK.podspec; path = ../XQAlipaySDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,6 @@
 				245873341B381149131E1949 /* Pods-XQAlipaySDK_Tests.debug.xcconfig */,
 				0B58ED1DFEAA6730501A05DD /* Pods-XQAlipaySDK_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

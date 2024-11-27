@@ -30,7 +30,13 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'XQAlipaySDK/Classes/**/*'
+  s.source_files = 'XQAlipaySDK/Classes/**/*', 'AlipaySDK/AlipaySDK.framework/Headers/*.h'
+  s.vendored_frameworks = "AlipaySDK/AlipaySDK.framework"
+  s.resource = 'AlipaySDK/AlipaySDK.bundle'
+  s.xcconfig = { 'HEADER_SEARCH_PATHS' => '${PODS_ROOT}/XQAlipaySDK/AlipaySDK/AlipaySDK.framework/Headers/**' }
+  
+  s.frameworks = "Foundation", "UIKit", "SystemConfiguration", "CoreTelephony", "QuartzCore", "CoreText", "CoreGraphics", "CFNetwork", "CoreMotion","WebKit"
+  s.libraries = "z", "c++"
   
   # s.resource_bundles = {
   #   'XQAlipaySDK' => ['XQAlipaySDK/Assets/*.png']
